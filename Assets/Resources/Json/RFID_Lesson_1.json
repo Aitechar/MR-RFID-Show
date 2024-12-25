@@ -1,0 +1,96 @@
+{
+  "Title": "RFID导入",
+  "Content": [
+    {
+      "Type": 0,
+      "Text": "欢迎进入RFID技术的介绍。\nRFID（射频识别）是一种通过无线电波进行数据交换的技术，广泛应用于物流管理、资产追踪、门禁控制等领域。"
+    },
+    {
+      "Type": 0,
+      "Text": "RFID系统主要由三部分组成：标签、读写器和数据处理系统。\n标签内嵌有微型芯片，读写器负责读取和写入数据，数据处理系统进行信息的存储和分析。"
+    },
+    {
+      "Type": 1,
+      "Path": "Sprite\\RFID_1\\RFID_System",
+      "Desc": "RFID系统组成示意图",
+      "ScaleFactor": 0.2,
+      "BoxPos": 2
+    },
+    {
+      "Type": 0,
+      "Text": "接下来，展示一下RFID标签和读写器的模型，帮助你更好地理解RFID的工作原理。"
+    },
+    {
+      "Type": 0,
+      "Text": "这是RFID标签模型。它通常非常小巧，可以嵌入到商品或物体中，带有一个独特的ID，读写器可以通过无线电波读取这个ID。"
+    },
+    {
+      "Type": 2,
+      "Path": "Prefabs\\RFID_1\\IC Card",
+      "Desc": "RFID标签模型"
+    },
+    {
+      "Type": 0,
+      "Text": "RFID标签有两种类型：无源标签和有源标签。\n无源标签没有电池，完全依赖读写器提供的能量；而有源标签带有电池，可以主动发送信号。"
+    },
+    {
+      "Type": 1,
+      "Path": "Sprite\\RFID_1\\Passive_Tag_vs_Active_Tag",
+      "Desc": "无源标签与有源标签的对比图",
+      "ScaleFactor": 0.25,
+      "BoxPos": 2
+    },
+    {
+      "Type": 0,
+      "Text": "这是RFID读写器模型。它通过射频信号与标签进行通信，读取或写入数据。"
+    },
+    {
+      "Type": 2,
+      "Path": "Prefabs\\RFID_1\\Read Card",
+      "Desc": "RFID读写器模型"
+    },
+    {
+      "Type": 0,
+      "Text": "当RFID标签靠近读写器时，读写器会向标签发送一个电磁波，标签在接收到信号后响应并传送数据。\n这就是RFID的基本工作原理。"
+    },
+    {
+      "Type": 0,
+      "Text": "RFID的读取距离和角度取决于标签的类型和读写器的性能。\n通常，无源标签的读取距离较短，而有源标签的读取距离更长，且可以在多种角度进行识别。"
+    },
+    {
+      "Type": 1,
+      "Path": "Sprite\\RFID_1\\RFID_Range",
+      "Desc": "RFID标签的读取范围示意图",
+      "ScaleFactor": 0.25,
+      "BoxPos": 2
+    },
+    {
+      "Type": 0,
+      "Text": "除了普通的应用，RFID技术还被应用于智能门禁系统、人员追踪、车载识别等多个领域。"
+    },
+    {
+      "Type": 1,
+      "Path": "Sprite\\RFID_1\\RFID_Applications",
+      "Desc": "RFID技术应用示意图",
+      "ScaleFactor": 0.25,
+      "BoxPos": 2
+    },
+    {
+      "Type": 0,
+      "Text": "例如，在物流管理中，RFID标签可以跟踪每个商品的流动，帮助仓库管理系统自动识别和分类商品。"
+    },
+    {
+      "Type": 0,
+      "Text": "为了演示RFID的应用，我们将展示一个RFID门禁交互的动画"
+    },
+    {
+      "Type": 2,
+      "Path": "Prefabs\\RFID_1\\Door Open Dirctor",
+      "Desc": "RFID 门禁动画演示"
+    },
+    {
+      "Type": 0,
+      "Text": "在动画结束后, 你可以用手柄抓取ID卡片与门禁交互"
+    }
+  ]
+}

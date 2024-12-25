@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MR_Menu.unity
+    guid: beebdc2f4b3ec4b4888111ec68f6bee2
+  - enabled: 1
+    path: Assets/Scenes/MR_Learn.unity
+    guid: a3aaf3fbf2f580d4ba49fce6f3818707
+  - enabled: 1
+    path: Assets/Scenes/RFID_1.unity
+    guid: 0546715d38140354a8b18749559decb1
+  - enabled: 1
+    path: Assets/Scenes/RFID_3.unity
+    guid: 84e3b20ae70457b489546f7675190f40
+  - enabled: 1
+    path: Assets/Scenes/RFID_4.unity
+    guid: 62d42f5827283134b9d4c7904c55f391
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a9227d04e3515a043a03064f78249c92, type: 2}
